@@ -1,0 +1,43 @@
+html{
+    margin: 0px;
+    padding: 0px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+  }
+
+body{
+    background-color:#EDEAE5;
+}
+
+
+.hautDePage{
+    display: flex;
+    text-align: right;
+    justify-content: flex-end;
+
+    h1{
+        font-family: 'Montserrat';
+        font-weight: 600;
+        color: #76573E;
+        
+    }
+
+
+.main_button{
+    font-family: 'EB Garamond';
+    font-size: 1.3rem;
+    letter-spacing: 0.3rem;
+    
+    background-color: #956943;
+    color: white;
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 0px 4px 0px black;
+}
+}
