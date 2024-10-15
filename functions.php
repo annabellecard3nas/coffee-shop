@@ -9,7 +9,7 @@ function coffeeShop_files(){
     le dernier argument  sert a savoir si tu veux que sa load au debut ou a la fin du body 
     (true=charge en bas de la page au lieu d'en haut ce qui est meilleur pour la performance en general)
     */
-    wp_enqueue_script('buger_button', get_theme_file_uri('/build/index.js'), array('jquery'),'1.0', true);
+    wp_enqueue_script('buger_button', get_theme_file_uri(''), array('jquery'),'1.0', true);
 
 
     //pour appeler les styles

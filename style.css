@@ -12,52 +12,14 @@ Version: 1.0
 Requires PHP: 8.1.29
 
 */
-html {
-  margin: 0px;
-  padding: 0px;
-}
-
-* {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-body {
-  background-color: #EDEAE5;
-}
-
-.hautDePage {
-  display: flex;
-  text-align: right;
-  justify-content: flex-end;
-}
-.hautDePage h1 {
-  font-family: "Montserrat";
-  font-weight: 600;
-  color: #76573E;
-}
-.hautDePage .main_button {
-  font-family: "EB Garamond";
-  font-size: 1.3rem;
-  letter-spacing: 0.3rem;
-  background-color: #956943;
-  color: white;
-  width: 15rem;
-  height: 2rem;
-  border-radius: 5px;
-  border: none;
-  box-shadow: 0px 0px 4px 0px black;
-}
-
 .menu_entete {
   width: 100%;
-  height: 3rem;
+  height: 3.6rem;
   background-color: #C9A183;
   display: flex;
   justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .menu_entete .logo_coffee {
   display: flex;
@@ -85,4 +47,65 @@ body {
   text-decoration: none;
   color: #FFF;
   font-family: "Montserrat";
+}
+
+html {
+  margin: 0px;
+  padding: 0px;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f3f1ee;
+}
+
+.hautDePage {
+  display: flex;
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 3.5rem;
+}
+.hautDePage .intro {
+  padding-right: 2.5rem;
+}
+.hautDePage .intro h1 {
+  font-family: "lato";
+  font-weight: 600;
+  color: #76573E;
+  margin-bottom: 1rem;
+}
+.hautDePage .intro p {
+  font-family: "lato";
+  font-weight: 300;
+  color: #937B67;
+  letter-spacing: 0.1rem;
+}
+.hautDePage .intro .mots_intro {
+  margin-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+.hautDePage .intro .main_button {
+  font-family: "EB Garamond";
+  font-size: 1.3rem;
+  letter-spacing: 0.3rem;
+  background-color: #956943;
+  color: white;
+  width: 15rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0px 0px 4px 0px black;
+}
+.hautDePage .cercle_1 {
+  width: 35rem;
+  height: 35rem;
+  border-radius: 100%;
+  background-color: #76573E;
+  position: relative;
 }/*# sourceMappingURL=style.css.map */
