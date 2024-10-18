@@ -31,8 +31,10 @@ add_action('after_setup_theme','ajout_au_theme');
 
 function coffeeShop_features(){
 
-    //activer une fonctionaliter pour mon theme (add_theme_support)
     //
+    register_nav_menu('headerMenuLocation','header menu location');
+    register_nav_menu('footerLocationOne','footer location one');
+    //activer une fonctionaliter pour mon theme (add_theme_support)
     add_theme_support('title-tag');
 }
 

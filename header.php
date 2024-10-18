@@ -15,6 +15,8 @@
              <?php the_custom_logo(); ?>
              <a href="<?php echo site_url(); ?>">Coffee House</a>
              </div>
-            <?php wp_nav_menu(); ?>
+            <?php wp_nav_menu(array(
+                'theme_location' =>'headerMenuLocation'
+            )); ?>
         </div>
     </header>

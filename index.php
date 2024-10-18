@@ -1,29 +1,31 @@
-<?php get_header(); ?>
+<?php
+    get_header(); 
+?>
 
-    <main>
-        <section class="hautDePage">
+    <div class="blog_php">
+   
+      <?php
+        while(have_posts()){
+            the_post()?>
+            <div class="post-item-blog">
+                <h1><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 
-            <div>
-                <div class="cercle_1" style="background-image: url(<?php echo get_theme_file_uri('/images/Accueil.jpg');?>);"></div>
-            </div>
-            
+                <div class="meta-box">
+                    <p>Posted by <?php  the_author() ; ?></p>
+                </div>
+                <div class="generic content">
+                    <?php the_excerpt(); ?>
+                    <p><a href="<?php the_permalink(); ?>">continue reading &raquo;</a></p>
+                </div>
+            </div> 
+        <?php } 
+      ?>
+    
+    </div>
 
-            <div class="intro">
-                <h1><?php echo get_bloginfo('name'); ?></h1>
-                <p>Where every coffee is crafted with passion,<br> and served with love to bring you joy,<br> and awaken your senses </p>
-                <p class="mots_intro">So just sip and relax...</p>
-                <button class="main_button">Shop</button>
-            </div>
-            
-        </section>
-
-        <section class="milieu">
-            
-        </section>
-    </main>
-
-
-
-<?php get_footer(); ?>    
+<?php
+    
+    get_footer();
+?>
     
 

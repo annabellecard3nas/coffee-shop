@@ -42,12 +42,16 @@ Requires PHP: 8.1.29
 .menu_entete .menu-menu-container ul {
   display: flex;
   list-style: none;
-  gap: 1rem;
+  gap: 3rem;
 }
 .menu_entete .menu-menu-container ul a {
   text-decoration: none;
   color: #FFF;
   font-family: "Montserrat";
+  letter-spacing: 0.1rem;
+}
+.menu_entete .menu-menu-container ul a:hover {
+  color: #4e311b;
 }
 
 html {
@@ -62,7 +66,7 @@ html {
 }
 
 body {
-  background-color: #f3f1ee;
+  background-color: #eae6e1;
 }
 
 .hautDePage {
@@ -71,7 +75,7 @@ body {
   align-items: center;
   justify-content: space-between;
   padding-top: 3.5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 1rem;
 }
 .hautDePage .intro {
   padding-right: 2.5rem;
@@ -104,7 +108,15 @@ body {
   border: none;
   box-shadow: 0px 0px 4px 0px black;
 }
-.hautDePage .cercle_1 {
+.hautDePage .intro .main_button:hover {
+  transition: 0.5s;
+  box-shadow: 0px 0px 8px 6px rgb(255, 255, 255);
+}
+.hautDePage .images_cercle {
+  display: flex;
+  position: relative;
+}
+.hautDePage .images_cercle .cercle_1 {
   width: 35rem;
   height: 35rem;
   border-radius: 100%;
@@ -112,10 +124,120 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 0px 0px 20px rgb(154, 154, 154);
+  position: relative;
+  left: -20%;
+}
+.hautDePage .images_cercle .cercle_2 {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 100%;
+  background-color: #76573E;
+  position: absolute;
+  left: 28rem;
+  top: 1rem;
+}
+.hautDePage .images_cercle .cercle_3 {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 100%;
+  background-color: #76573E;
+  position: absolute;
+  left: 28.5rem;
+  top: 13.5rem;
 }
 
-.milieu {
+.milieu #wave {
+  display: block;
+  fill: #C2AB91;
+}
+.milieu .about_us_space {
   height: 50rem;
   width: 100%;
   background-color: #C2AB91;
+  display: flex;
+  justify-content: center;
+}
+.milieu .about_us_space .about_us_cercle {
+  width: 45rem;
+  height: 45rem;
+  border-radius: 100%;
+  background-color: #5D4634;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 20px 5px #FFF;
+  z-index: 1;
+  position: relative;
+}
+.milieu .about_us_space .about_us_cercle p {
+  text-align: center;
+}
+.milieu .about_us_space .about_us_cercle button {
+  position: absolute;
+  top: 35rem;
+  left: 30rem;
+  width: 15rem;
+  height: 3rem;
+  background-color: rgba(55, 39, 32, 0.7725490196);
+  backdrop-filter: blur(5px);
+  color: #FFF;
+  font-family: "EB garamond";
+  word-spacing: 1rem;
+  letter-spacing: 0.1rem;
+  font-size: large;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+.pages_php {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+footer {
+  background-color: rgb(22, 22, 22);
+  width: 100%;
+  height: 20rem;
+}
+footer .bas_de_page {
+  display: flex;
+  flex-direction: column;
+}
+footer .bas_de_page .info {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-around;
+  color: #b6b6b6;
+}
+footer .bas_de_page .info h1 {
+  font-family: "lato";
+  padding-bottom: 1rem;
+}
+footer .bas_de_page .info p {
+  font-family: "lato";
+  font-weight: 300;
+}
+footer .bas_de_page .info .menu-footer-menu-container ul {
+  list-style: none;
+}
+footer .bas_de_page .info .menu-footer-menu-container ul a {
+  font-family: "lato";
+  font-weight: 300;
+  color: #b6b6b6;
+  text-decoration: none;
+}
+footer .bas_de_page .credits {
+  border-top: 1px solid rgb(112, 112, 112);
+  color: rgb(112, 112, 112);
+  display: flex;
+  justify-content: center;
+}
+
+.blog_php {
+  padding: 2.5rem;
+}
+.blog_php .post-item-blog h1 a {
+  color: #FFF;
 }/*# sourceMappingURL=style.css.map */
