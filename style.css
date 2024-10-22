@@ -171,6 +171,7 @@ body {
 }
 .milieu .about_us_space .about_us_cercle p {
   text-align: center;
+  color: #FFF;
 }
 .milieu .about_us_space .about_us_cercle button {
   position: absolute;
@@ -182,7 +183,7 @@ body {
   backdrop-filter: blur(5px);
   color: #FFF;
   font-family: "EB garamond";
-  word-spacing: 1rem;
+  word-spacing: 0.5rem;
   letter-spacing: 0.1rem;
   font-size: large;
   border: none;
@@ -238,6 +239,45 @@ footer .bas_de_page .credits {
 .blog_php {
   padding: 2.5rem;
 }
+.blog_php .post-item-blog {
+  background-color: rgb(95, 76, 65);
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+.blog_php .post-item-blog h1 {
+  padding-bottom: 0.2rem;
+}
 .blog_php .post-item-blog h1 a {
+  color: #ffffff;
+  font-family: "EB garamond";
+  text-decoration: none;
+}
+.blog_php .post-item-blog .meta-box {
+  color: #c5c5c5;
+}
+.blog_php .post-item-blog .generic-content p {
+  padding-top: 1rem;
+  padding-left: 1rem;
   color: #FFF;
+}
+.blog_php .post-item-blog .generic-content p a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.page_shop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.page_shop h1 {
+  color: #C3C3C3;
+}
+.page_shop .grey_line {
+  background-color: #C3C3C3;
+  height: 0.2rem;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

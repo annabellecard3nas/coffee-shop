@@ -1,0 +1,17 @@
+.page_shop{
+
+    h1{
+        color:#C3C3C3;
+    }
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .grey_line{
+        background-color: #C3C3C3;
+        height: 0.2rem;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+}

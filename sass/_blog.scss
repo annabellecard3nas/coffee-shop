@@ -2,12 +2,35 @@
     padding: 2.5rem;
 
 .post-item-blog{
+    background-color: rgb(95, 76, 65);
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
     h1{
-        
+        padding-bottom: 0.2rem;
         a{
-            color: #FFF;
+            color: #ffffff;
+            font-family: 'EB garamond';
+            text-decoration: none;
         }
 
+    }
+
+    .meta-box{
+        color:  #c5c5c5;
+    }
+
+    .generic-content{
+        p{
+            padding-top: 1rem;
+            padding-left: 1rem;
+            color:#FFF;
+
+            a{
+                color: #ffffff;
+                text-decoration: none;
+            }
+        }
     }
 }
 }

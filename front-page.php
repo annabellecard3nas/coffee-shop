@@ -15,7 +15,12 @@
                 <h1><?php echo get_bloginfo('name'); ?></h1>
                 <p>Where every coffee is crafted with passion,<br> and served with love to bring you joy,<br> and awaken your senses </p>
                 <p class="mots_intro">So just sip and relax...</p>
-                <a href="<?php echo site_url('/shop'); ?>"><button class="main_button">Shop &raquo;</button></a>
+                <a href="<?php echo site_url('/shop'); ?>">
+                    <button class="main_button">
+                        Shop 
+                        &raquo;
+                    </button>
+                </a>
             </div>
             
         </section>
@@ -26,7 +31,9 @@
                 <div class="about_us_space">
                     <div class="about_us_cercle">
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere minima rem blanditiis esse amet commodi magni laboriosam facilis impedit officiis quo quam, consequatur dignissimos numquam, dolore libero nemo temporibus.</p>
-                        <button>Know more</button>
+                        <br>
+                        <p>"Brewed with tradition, served with a spark."</p>
+                        <a href="<?php echo site_url('/about-us'); ?>"><button>Know more</button></a>
                     </div>
                 </div>
         </section>
