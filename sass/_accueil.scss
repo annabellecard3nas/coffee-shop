@@ -122,6 +122,8 @@ body{
         background-color: #C2AB91;
         display: flex;
         justify-content: center;
+        position: relative;
+
         .about_us_cercle{
             width: 45rem;
             height: 45rem;
@@ -133,9 +135,18 @@ body{
             box-shadow: 0px 0px 20px 5px #FFF;
             z-index: 1;
             position: relative;
+            align-items: center;
+
+            h1{
+                color: #FFF;
+                padding-bottom: 1rem;
+            }
+
             p{
                 text-align: center;
                 color:#FFF;
+                font-family: 'lato';
+                font-weight: 300;
             }
             
             button{
@@ -154,7 +165,52 @@ body{
                 border: none;
                 border-radius: 0.5rem;
             }
+
+            button:hover{
+                backdrop-filter: blur(8px);
+                box-shadow: 0px 0px 6px 3px #FFF;
+                transition: 0.5s;
+            }
            
         }
+
+        .about_us_cercle2{
+            width: 14rem;
+            height: 14rem;
+            border-radius: 100%;
+            background-color: #5D4634;
+            position: absolute;
+            left: 70rem;
+            
+        }
+
+        .about_us_cercle3{
+            width: 10rem;
+            height: 10rem;
+            border-radius: 100%;
+            background-color: #5D4634;
+            position: absolute;
+            right: 70rem;
+            top: 35rem;
+            
+        }
+
+        .about_us_cercle4{
+            width: 5rem;
+            height: 5rem;
+            border-radius: 100%;
+            background-color: #5D4634;
+            position: absolute;
+            right: 85rem;
+            top: 28rem;
+        }
+
+        
+         
     }
+}
+
+.lightCercle{
+    box-shadow: 0px 0px 6px 3px #FFF;
+    transition: 0.5s
 }

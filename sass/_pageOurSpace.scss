@@ -1,0 +1,32 @@
+.page_shop{
+
+    .description_ourSpaces{
+        margin-top: 3rem;
+        height: 20rem;
+        width: 50rem;
+        background-color: #5D4634;
+        border-radius: 0px 500px 500px 0px;
+        padding: 1rem;
+
+       p{
+        text-wrap: pretty;
+        color: #FFF;
+        
+       }
+        
+    }
+    
+    .theWindows{
+        display: flex;
+        justify-content: space-evenly;
+        .window1,.window2,.window3{
+            margin-top: 5rem;
+            width: 17rem;
+            height: 30rem;
+            background-color: #FFF;
+            border-radius:500px 500px 0px 0px  ;
+            margin-bottom: 5rem;
+        }
+    }
+   
+}

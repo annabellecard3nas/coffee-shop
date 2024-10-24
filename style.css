@@ -156,6 +156,7 @@ body {
   background-color: #C2AB91;
   display: flex;
   justify-content: center;
+  position: relative;
 }
 .milieu .about_us_space .about_us_cercle {
   width: 45rem;
@@ -168,10 +169,17 @@ body {
   box-shadow: 0px 0px 20px 5px #FFF;
   z-index: 1;
   position: relative;
+  align-items: center;
+}
+.milieu .about_us_space .about_us_cercle h1 {
+  color: #FFF;
+  padding-bottom: 1rem;
 }
 .milieu .about_us_space .about_us_cercle p {
   text-align: center;
   color: #FFF;
+  font-family: "lato";
+  font-weight: 300;
 }
 .milieu .about_us_space .about_us_cercle button {
   position: absolute;
@@ -188,6 +196,42 @@ body {
   font-size: large;
   border: none;
   border-radius: 0.5rem;
+}
+.milieu .about_us_space .about_us_cercle button:hover {
+  backdrop-filter: blur(8px);
+  box-shadow: 0px 0px 6px 3px #FFF;
+  transition: 0.5s;
+}
+.milieu .about_us_space .about_us_cercle2 {
+  width: 14rem;
+  height: 14rem;
+  border-radius: 100%;
+  background-color: #5D4634;
+  position: absolute;
+  left: 70rem;
+}
+.milieu .about_us_space .about_us_cercle3 {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 100%;
+  background-color: #5D4634;
+  position: absolute;
+  right: 70rem;
+  top: 35rem;
+}
+.milieu .about_us_space .about_us_cercle4 {
+  width: 5rem;
+  height: 5rem;
+  border-radius: 100%;
+  background-color: #5D4634;
+  position: absolute;
+  right: 85rem;
+  top: 28rem;
+}
+
+.lightCercle {
+  box-shadow: 0px 0px 6px 3px #FFF;
+  transition: 0.5s;
 }
 
 .pages_php {
@@ -266,18 +310,49 @@ footer .bas_de_page .credits {
   text-decoration: none;
 }
 
-.page_shop {
+.page_shop .description_ourSpaces {
+  margin-top: 3rem;
+  height: 20rem;
+  width: 50rem;
+  background-color: #5D4634;
+  border-radius: 0px 500px 500px 0px;
+  padding: 1rem;
+}
+.page_shop .description_ourSpaces p {
+  text-wrap: pretty;
+  color: #FFF;
+}
+.page_shop .theWindows {
+  display: flex;
+  justify-content: space-evenly;
+}
+.page_shop .theWindows .window1, .page_shop .theWindows .window2, .page_shop .theWindows .window3 {
+  margin-top: 5rem;
+  width: 17rem;
+  height: 30rem;
+  background-color: #FFF;
+  border-radius: 500px 500px 0px 0px;
+  margin-bottom: 5rem;
+}
+
+.titre_page {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.page_shop h1 {
-  color: #C3C3C3;
+.titre_page h1 {
+  color: #A7A7A7;
+  font-family: cochin, "lato";
+  font-weight: 300;
+  letter-spacing: 0.1rem;
+  padding-bottom: 0.5rem;
+  padding-top: 0.5rem;
+  word-spacing: 0.2rem;
 }
-.page_shop .grey_line {
-  background-color: #C3C3C3;
+.titre_page .grey_line {
+  background-color: #A7A7A7;
   height: 0.2rem;
-  width: 80%;
+  width: 80vw;
   margin: 0 auto;
   margin-bottom: 1rem;
 }/*# sourceMappingURL=style.css.map */

@@ -30,11 +30,16 @@
             <?php get_template_part("composantPHP/wave"); ?>
                 <div class="about_us_space">
                     <div class="about_us_cercle">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facere minima rem blanditiis esse amet commodi magni laboriosam facilis impedit officiis quo quam, consequatur dignissimos numquam, dolore libero nemo temporibus.</p>
+                        <h1>Our history</h1>
+                        <?php the_content(); ?>
                         <br>
                         <p>"Brewed with tradition, served with a spark."</p>
-                        <a href="<?php echo site_url('/about-us'); ?>"><button>Know more</button></a>
+                        <a href="<?php echo site_url('/about-us'); ?>"><button class="knowMore">Know more</button></a>
                     </div>
+
+                    <div class="about_us_cercle2"></div>
+                    <div class="about_us_cercle3"></div>
+                    <div class="about_us_cercle4"></div>
                 </div>
         </section>
     </main>
